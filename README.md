@@ -1,6 +1,7 @@
 # InfrastructureAsCode
 Describe Infrastructures as Code
 
+```
 # Configure the VMware vSphere Provider
 provider "vsphere" {
   user           = "${var.vsphere_user}"
@@ -46,3 +47,4 @@ resource "vsphere_virtual_machine" "web" {
     template = "centos-7"
   }
 }
+```
